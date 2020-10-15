@@ -1,0 +1,32 @@
+<style type="text/css">
+  .fiptable .title {
+    width: 67%;
+  }
+
+  .fiptable .author {
+    width: 33%;
+  }
+</style>
+{% for status in site.data.statuses %}
+{% assign fips = include.fips|where:"status",status|sort:"fip" %}
+{% assign count = fips|size %}
+{% if count > 0 %}
+<h2>{{status}}</h2>
+<table class="fiptable">
+  <thead>
+    <tr>
+      <th class="fipnum">Number</th>
+      <th class="title">Title</th>
+      <th class="author">Author</th>
+    </tr>
+  </thead>
+  {% for page in fips %}
+  <tr>
+    <td class="fipnum"><a href="{{page.url|relative_url}}">{{page.fip|xml_escape}}</a></td>
+    <td class="title">{{page.title|xml_escape}}</td>
+    <td class="author">{% include authorlist.html authors=page.author %}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% endif %}
+{% endfor %}

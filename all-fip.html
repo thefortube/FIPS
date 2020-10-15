@@ -1,0 +1,7 @@
+---
+layout: page
+title: All FIPs
+---
+
+{% assign fips=site.pages|where_exp:"page","page.fip > -1" %} {% include
+fiptable.html fips=fips %}
