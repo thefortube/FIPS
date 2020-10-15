@@ -17,7 +17,7 @@ description: >-
   Fortube Improvement Proposals (FIPs) describe standards for the Fortube
   platform, including core protocol specifications, client APIs, and contract
   standards.
-url: "https://vote.for.tube"
+url: "https://forum.for.tube"
 repository: thefortube/FIPS
 twitter_username: ForTubeFi
 github_username: thefortube

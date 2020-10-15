@@ -77,7 +77,7 @@ Each FIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style
 
 ` author:` <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s). Details are below.>
 
-` * discussions-to:` \<a url pointing to the official discussion thread at gov.for.tube\>
+` * discussions-to:` \<a url pointing to the official discussion thread at forum.for.tube\>
 
 ` status:` < WIP | PROPOSED | APPROVED | IMPLEMENTED >
 
@@ -111,7 +111,7 @@ if the email address is not given.
 
 #### `discussions-to` header
 
-While an FIP is in WIP or Proposed status, a `discussions-to` header will indicate the URL at [gov.for.tube](https://gov.for.tube/) where the FIP is being discussed.
+While an FIP is in WIP or Proposed status, a `discussions-to` header will indicate the URL at [forum.for.tube](https://forum.for.tube/) where the FIP is being discussed.
 
 #### `created` header
 

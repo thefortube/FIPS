@@ -9,7 +9,7 @@ ForTube Improvement Proposals (FIPs) describe standards for the ForTube platform
  3. Add your FIP to your fork of the repository. There is a [template FIP here](template/fip-X.md).
  4. Submit a Pull Request to ForTube's [FIPs repository](https://github.com/thefortube/FIPS/).
 
-Your first PR should be a first draft of the final FIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new FIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a new thread on [gov.for.tube](https://gov.for.tube/) where people can discuss the FIP as a whole.
+Your first PR should be a first draft of the final FIP. It must meet the formatting criteria enforced by the build (largely, correct metadata in the header). An editor will manually review the first PR for a new FIP and assign it a number before merging it. Make sure you include a `discussions-to` header with the URL to a new thread on [forum.for.tube](https://forum.for.tube/) where people can discuss the FIP as a whole.
 
 If your FIP requires images, the image files should be included in a subdirectory of the `assets` folder for that FIP as follow: `assets/fip-X` (for fip **X**). When linking to an image in the FIP, use relative links such as `../assets/fip-X/image.png`.
 
