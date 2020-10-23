@@ -133,6 +133,12 @@ FIPs may include auxiliary files such as diagrams. Such files must be named FIP-
 
 The current FIP editors are:
 
+` * David Lei (@Master-LY)`
+
+` * seamon (@seamon)`
+
+` * Aaron (@aaronliug)`
+
 ` * Mirai (@Mingliang233)`
 
 ## FIP Editor Responsibilities
