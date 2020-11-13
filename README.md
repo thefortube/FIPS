@@ -44,10 +44,10 @@ ForTube改进提案（FIP）描述了ForTube平台的标准，包括核心协议
 
 ## 步骤
 
- 1. 查看[FIP-0](https://github.com/ForTube-Protocol/FIPs/blob/master/FIPS/fip-0.md)。
- 2. 单击“Fork”按钮Fork存储库。查看[说明](https://github.com/ForTube-Protocol/FIPs/blob/master/template/git-cmd.md)。
- 3. 将你的FIP添加到Fork的存储库中。查看此处[FIP模板](https://github.com/ForTube-Protocol/FIPs/blob/master/template/fip-X.md)。
- 4. 提交一个Pull Request到ForTube的FIPs[存储库](https://github.com/ForTube-Protocol/FIPs/)。
+ 1. 查看[FIP-0](https://github.com/thefortube/FIPS/blob/master/FIPS/fip-0.md)。
+ 2. 单击“Fork”按钮Fork存储库。查看[说明](https://github.com/thefortube/FIPS/blob/master/template/git-cmd.md)。
+ 3. 将你的FIP添加到Fork的存储库中。查看此处[FIP模板](https://github.com/thefortube/FIPS/blob/master/template/fip-X.md)。
+ 4. 提交一个Pull Request到ForTube的FIPs[存储库](https://github.com/thefortube/FIPS/)。
 
 
 你的第一个提案，应该是最终FIP的草案。 它必须满足所需的格式设置标准（主要是报头中的正确元数据） 。编辑者将手动查看新FIP的第一个提案，并在合并前为其分配一个编号。 确保你在[forum.for.tube](https://forum.for.tube/)上新帖子的URL中包含一个`discussions-to` 的报头，以便社区用户讨论FIP。
